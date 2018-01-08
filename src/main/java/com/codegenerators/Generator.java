@@ -9,7 +9,7 @@ public class Generator {
 		// TODO Auto-generated method stub
 		long startTime = System.currentTimeMillis();
 		System.out.println("Welcome to Generator...");
-		freemarkerGeneratorCode();
+//		freemarkerGeneratorCode();
 		velocityGeneratorCode();
 		System.out.println("Take time..." + ( System.currentTimeMillis() - startTime) + "ms");
 		System.out.println("Done...");

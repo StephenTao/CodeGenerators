@@ -7,8 +7,8 @@ uses java.lang.Integer
 /**
  * Created with Code Generators.
  * User: 
- * Date: 01/05/18
- * Time: 05:37 PM
+ * Date: 01/08/18
+ * Time: 02:41 PM
  * To change this template use File | Settings | File Templates.
  */
 class ClassName0_VM {
