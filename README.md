@@ -1,5 +1,7 @@
 ## Code Generators
 
+代码自动化生成工具，本项目使用和Freemarker和Velocity分别学习使用这个两个模板引擎生成框架，学习使用POI框架操作Excel等Office软件。
+
 ### Freemarker
 
 #### 参考
