@@ -1,0 +1,31 @@
+package $data.packageName
+
+uses edge.jsonmapper.JsonProperty
+uses edge.jsonmapper.Required
+uses java.lang.Integer
+
+/**
+ * Created with Code Generators.
+ * User: ${data.createUser}
+ * Date: ${data.createDate}
+ * Time: ${data.createTime}
+#if($data.comment)
+ * To change this template use File | Settings | File Templates.
+#else
+* $data.comment
+#end
+ */
+class ${data.className} {
+
+#foreach($row in $data.properties)
+#if($row.comment)
+    //$row.comment
+#end
+    @JsonProperty
+#if ($row.requried == true)
+    @Required
+#end
+    var _$row.propertyID : $row.type as $row.name
+    
+#end
+}

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/codegenerators/Generator.java=UTF-8
+encoding//src/main/java/com/codegenerators/freemarker/Freemarker.java=UTF-8
+encoding//src/main/java/com/codegenerators/utils/DateUtil.java=UTF-8
+encoding//src/main/java/com/codegenerators/utils/ExcelUtil.java=UTF-8
+encoding//src/main/java/com/codegenerators/utils/StringUtil.java=UTF-8
